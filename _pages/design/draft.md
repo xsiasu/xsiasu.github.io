@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 
-```vuejs
+```vue
 <template>
   <div>
     <!--2. prop으로 받은 point는 아래와 같이 templete에서는 point로 script에서는 this.point로 사용합니다.-->
