@@ -68,3 +68,8 @@
   background-color: rgba(125, 125, 125, 0.2);
   -webkit-border-radius: 6px;
 }
+
+
+.markdown-section pre {
+    background-color: #1c1f2b;
+}
