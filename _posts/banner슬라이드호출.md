@@ -89,6 +89,7 @@ import bannerApi from '@/api/banner'
 export default {
   data() {
     return {
+    //banner 배열 선언
       banners : []
     };
   },
@@ -97,7 +98,7 @@ export default {
       this.banners = [].concat(response.data)
 
       //slick jquery plugin 적용
-      // $nextTick() 메쏘드가 활ㅛ
+      // $nextTick() 메쏘드가 활용
       this.$nextTick(()=> {
         $(this.$refs.slick).slick1()
       })
@@ -106,5 +107,4 @@ export default {
   }
 };  
 </script>
-
 ```
