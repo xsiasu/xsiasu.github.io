@@ -69,3 +69,6 @@
   -webkit-border-radius: 6px;
 }
 
+.markdown-section pre {
+    background: #111;
+}
